@@ -1,4 +1,21 @@
 .App {
-  text-align: center;
+ text-align: center;
+ margin: 3% 10%;
 }
 
+.recipes-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.recipe-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 30%;
+}
