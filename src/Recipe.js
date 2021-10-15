@@ -5,8 +5,9 @@ function Recipe(props) {
     return (
         <div>
             <h2>{recipe.label}</h2>
+            <p>Calories: {Math.floor(recipe.calories)}</p>
             <img src={recipe.image} alt={recipe.image} />
-            <p>{Math.floor(recipe.calories)}</p>
+            
         </div>
     )
 }

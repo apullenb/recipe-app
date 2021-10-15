@@ -17,5 +17,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 align-content: center;
-width: 30%;
+width: 28%;
+margin: 1%;
+padding: 1%;
+background-color: #abecd6;
 }
