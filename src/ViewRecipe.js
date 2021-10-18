@@ -19,9 +19,20 @@ function ViewRecipe(props) {
                         return <p className='ingredient' key={i}>{item}</p>
                     })}
                 </div>
+                <button style={close}>X CLOSE</button>
             </div>
         </div>
     )
 }
 
 export default ViewRecipe
+
+const close = {
+    border: '2px solid #abecd6',
+    padding: '1% 2%',
+    color: '#abecd6',
+    textAlign:'right',
+    marginLeft: '80%',
+    backgroundColor: '#1d8d8d',
+    marginTop: '15px'
+}
