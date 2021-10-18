@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
 
 .App {
+font-family: 'Open Sans', sans-serif;
  text-align: center;
  margin: 3% 10%;
 }
@@ -12,6 +13,7 @@
   justify-content: center;
   padding: 1% 5%;
   z-index: 0;
+  font-weight: 400;
 }
 
 .recipe-box {
@@ -26,6 +28,7 @@ margin: 1%;
 padding: 1% 2%;
 background-color: #abecd6;
 box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
+border-radius: 10px;
 }
 .recipe-box img {
   width: 275px;
@@ -33,10 +36,24 @@ box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
 }
 
 .search-block {
-  background: #a5db86;
+  background: #a5db86b6;
+  border: 2px solid #7daa63;
   margin: 3% 30%;
   padding: 2% 5%;
+  border-radius: 8px;
+  color: #42692b;
 }
+
+input {
+  border: 2px solid #7daa63;
+  padding: 5px 15px;
+  margin: 0 5px;
+  background-color: #f3fdede0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
 
 
 .hide {
@@ -61,4 +78,34 @@ box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
   margin: 10% 35%; 
   border: 5px solid rgb(97, 196, 174);
   padding: 1%;
+}
+
+.search-block button {
+  border: 2px solid #7daa63;
+  padding: 5px 8px;
+  margin: 0;
+  background-color: #42692b ;
+  font-size: 20px;
+  font-weight: 500;
+  color:  #f3fdede0;
+}
+
+
+.search-block button:hover {
+  color: #42692b;
+  background-color: #dff8d1e0;
+}
+.recipes-block button {
+  border: 2px solid #338585;
+  padding: 5px 8px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #dff5ed;
+  background-color: #5fb8b8;
+  text-transform: uppercase;
+}
+.recipes-block button:hover {
+  color: #52b6b6 ;
+  background-color: #5fb8b863 ;
 }
