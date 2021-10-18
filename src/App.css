@@ -6,19 +6,31 @@
 .recipes-block {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  padding: 2%;
+  padding: 1% 5%;
 }
 
 .recipe-box {
 display: flex;
 flex-direction: column;
+text-transform: capitalize;
+overflow-wrap: break-word;
 justify-content: center;
 align-items: center;
 align-content: center;
-width: 28%;
 margin: 1%;
-padding: 1%;
+padding: 1% 2%;
 background-color: #abecd6;
+box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
+}
+.recipe-box img {
+  width: 275px;
+  padding: 2%;
+}
+
+.search-block {
+  background-color:#abecd6;
+  margin: 3% 30%;
+  padding: 2% 5%;
 }
