@@ -11,7 +11,7 @@ font-family: 'Open Sans', sans-serif;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
-  padding: 1% 5%;
+  padding: 1% 8%;
   z-index: 0;
   font-weight: 400;
 }
@@ -24,14 +24,14 @@ overflow-wrap: break-word;
 justify-content: center;
 align-items: center;
 align-content: center;
-margin: 1%;
+margin: 3%;
 padding: 1% 2%;
 background-color: #abecd6;
 box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
 border-radius: 10px;
 }
 .recipe-box img {
-  width: 275px;
+  width: 250px;
   padding: 2%;
 }
 
@@ -46,7 +46,7 @@ border-radius: 10px;
 
 input {
   border: 2px solid #7daa63;
-  padding: 5px 15px;
+  padding: 5px 0;
   margin: 0 5px;
   background-color: #f3fdede0;
   font-size: 20px;
