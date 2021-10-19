@@ -36,7 +36,7 @@ const close = {
   padding: "1% 2%",
   color: "#abecd6",
   textAlign: "right",
-  marginLeft: "80%",
+  marginLeft: "78%",
   backgroundColor: "#1d8d8d",
   marginTop: "15px",
 };
