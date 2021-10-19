@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
 
 .App {
-font-family: 'Open Sans', sans-serif;
- text-align: center;
- margin: 3% 10%;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 3% 10%;
 }
 
 .recipes-block {
@@ -17,18 +17,18 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .recipe-box {
-display: flex;
-flex-direction: column;
-text-transform: capitalize;
-overflow-wrap: break-word;
-justify-content: center;
-align-items: center;
-align-content: center;
-margin: 3%;
-padding: 1% 2%;
-background-color: #abecd6;
-box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 3%;
+  padding: 1% 2%;
+  background-color: #abecd6;
+  box-shadow: 2px 4px 7px rgba(128, 128, 128, 0.596);
+  border-radius: 10px;
 }
 .recipe-box img {
   width: 250px;
@@ -53,29 +53,25 @@ input {
   font-weight: 500;
 }
 
-
-
-
 .hide {
   display: none;
 }
 
 .view-recipe {
-  display: block; 
-  position: fixed; 
-  z-index: 1; 
+  display: block;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0, 0, 0, 0.74); 
-
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.74);
 }
 .view-recipe-content {
   background-color: #fefefe;
-  margin: 10% 35%; 
+  margin: 10% 35%;
   border: 5px solid rgb(97, 196, 174);
   padding: 1%;
 }
@@ -84,12 +80,11 @@ input {
   border: 2px solid #7daa63;
   padding: 5px 8px;
   margin: 0;
-  background-color: #42692b ;
+  background-color: #42692b;
   font-size: 20px;
   font-weight: 500;
-  color:  #f3fdede0;
+  color: #f3fdede0;
 }
-
 
 .search-block button:hover {
   color: #42692b;
@@ -106,6 +101,6 @@ input {
   text-transform: uppercase;
 }
 .recipes-block button:hover {
-  color: #52b6b6 ;
-  background-color: #5fb8b863 ;
+  color: #52b6b6;
+  background-color: #5fb8b863;
 }
