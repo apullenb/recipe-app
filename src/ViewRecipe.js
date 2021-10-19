@@ -18,6 +18,7 @@ function ViewRecipe(props) {
                     {props.recipe.ingredientLines.map((item, i) => {
                         return <p className='ingredient' key={i}>{item}</p>
                     })}
+                    <p><a href={props.recipe.url}><button>Instructions</button></a></p>
                 </div>
                 <button style={close}>X CLOSE</button>
             </div>
